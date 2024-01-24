@@ -8,20 +8,22 @@
 }
 
 body {
-    margin: 0 auto;
+    width: 100%;
 }
 
 header {
+    width: 100%;
     background-color: #D97E4A;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px;
+    padding: 16px;
 }
 
 header h1 {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.185);
     width: 100px;
+    font-weight: 0.8em;
     text-transform: uppercase;
     color: white;
 }
